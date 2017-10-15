@@ -15,7 +15,7 @@
 
   </solrcloud>
   <core>
-    <str name="name">test_embedded</str>
+    <str name="name">base</str>
   </core>
   <shardHandlerFactory name="shardHandlerFactory"    class="HttpShardHandlerFactory">
     <int name="socketTimeout">${socketTimeout:0}</int>

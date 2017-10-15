@@ -23,7 +23,7 @@ class SolrClientAccessWithEmbeddedSolrSuite extends FunSuite with MockitoSugar w
     val container = new CoreContainer()
     container.load()
 
-    server = new EmbeddedSolrServer(container, "test_embedded")
+    server = new EmbeddedSolrServer(container, "base")
     solrClientAccess = new SolrClientAccess(server, None)
 
   }
